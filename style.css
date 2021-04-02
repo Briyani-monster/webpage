@@ -1,0 +1,256 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Bitter', serif;
+    background-color: #8865ff;
+    position: relative;
+}
+
+#navbar{
+    /* background-color: #ff6fa5; */
+    display:flex;
+    justify-content:flex-end;
+    align-content: center;
+    position:relative;
+    
+}
+#logo{
+    display:flex;
+    align-items:center;
+    margin-bottom: 20px;
+    position: absolute;
+    top:0px;
+    left:20px;
+    
+
+}
+#logo span{
+    font-weight:bold;
+    font-family: 'Arizonia', cursive;
+    color:white;
+    font-size:2em;
+
+}
+#navbar img{
+    width:50px;
+    height:50px;
+    
+    
+}
+#nav-link{
+    margin-right: 30px;
+    
+    
+}
+#navbar li{
+    display:inline;
+    padding: 10px;
+    list-style: none;
+    
+}
+#navbar a{
+    
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-weight: 800;
+    color: white;
+}
+/* main */
+#main{
+    margin:20px;
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+#tagline{
+    font-size:50px;
+    font-weight:1000;
+    color:white;
+    margin-bottom:30px;
+    
+}
+#breif{
+    font-size:25px;
+    font-weight:400;
+    color:white;
+    margin-bottom:10px;
+    opacity:30%;
+    width:100%;
+    margin-bottom:30px;
+}
+#button{
+    background-color:white;
+    border:2px solid white;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+.ceo{
+    background-color: rgba( 100,40,80,0.3 );
+    padding: 20px;
+    border-radius:10px;
+    width: 200px;
+}
+#ceo-decription{
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    font-family:arial;
+}
+.ceo-image{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+#about{
+    margin:50px;
+   
+}
+#about::before{
+    content:"";
+    display:block;
+    margin:10px auto;
+    width:8%;
+    border-top: 15px dotted white; 
+    opacity:50%;
+}
+#main-head{
+    font-size:30px;
+    font-weight:1000;
+    color:white;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:30px;
+}
+.ceo{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin:20px;
+    color:white;
+}
+#name span{
+    opacity:70%;
+}
+#clear::before{
+    content:"";
+    display:block;
+    margin:10px auto;
+    width:8%;
+    border-top: 15px dotted white; 
+    opacity:50%;
+}
+/* Forms */
+
+#contact-us{
+    width:400px;
+    height:400px;
+    border-radius: 20px;
+    background-color:rgba( 255, 255, 255,0.3 );
+    margin:20px auto;
+    /* opacity: 10%; */
+    /* position: relative; */
+    /* z-index: 1; */
+   
+}
+#form-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 20px;
+    position: relative;
+    top:20px;
+    /* z-index: -1; */
+
+    
+}
+#form-logo img{
+    
+    width:10%;
+    height:10%;
+
+}
+#form-logo span{
+    font-weight:bold;
+    font-family: 'Arizonia', cursive;
+    color:white;
+    font-size:2em;
+
+}
+#form-head{
+    margin: 30px 0;
+    text-align: center;
+    
+    color:white;
+
+}
+#form-head span{
+    font-size: 2em;
+  
+    font-weight:bolder;
+}
+#form-body{
+    margin:10px 0;
+    
+    
+}
+#Fname,#Email,#submit{
+    display:block;
+    margin:30px auto;
+    padding:10px 30px;
+    border-radius: 25px;
+    border:3px solid white;
+    outline:none;
+
+}
+#submit{
+    background:black;
+    color:white;
+    border:5px solid black;
+    font-weight: bold;
+}
+#Fname::placeholder,#Email::placeholder,#submit::placeholder{
+    
+    text-align: center;
+    
+
+}
+.clear-it{
+    position:none;
+}
+#footer{
+    background:rgba( 255, 255, 255,0.3 );
+    height: 50px;
+    position:relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+/* #footerbody */
